@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'users',
     'pages',
+    'articles',
     'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -108,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/Cairo'
 
 USE_I18N = True
 
